@@ -1,7 +1,7 @@
 {
-    "name": "PhaserStarter",
+    "name": "Phaser Sentry2",
     "version": "1.0.0",
-    "description": "A bootstrap project to create games with Phaser + ES6 + Webpack",
+    "description": "A Phaser game.",
     "author": "Joeri Kassenaar (joeri@bespired.nl)",
     "main": "index.js",
     "scripts": {
@@ -11,7 +11,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "git://github.com/bespired/phaser-starter.git"
+        "url": "git://github.com/bespired/Sentry2.git"
     },
     "license": "MIT",
     "devDependencies": {

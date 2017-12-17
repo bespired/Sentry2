@@ -1,5 +1,5 @@
-# Phaser Starter
-#### A bootstrap project to create games with Phaser + ES6 + Webpack.
+# Sentry2
+#### A Tower Game.
 
 
 ## Features
@@ -18,7 +18,7 @@ Navigate into your workspace directory.
 
 Run:
 
-```git clone https://github.com/bespired/phaser-starter.git```
+```git clone https://github.com/bespired/Sentry2.git sentry```
 
 ## 2. Install node.js and npm:
 
