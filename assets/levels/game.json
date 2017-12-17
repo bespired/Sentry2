@@ -1,0 +1,88 @@
+
+{
+	"note":{
+		 "1": ["Welcome",  "Select the level you want to play."],
+		 "2": ["Great",    "Move on to your next stage."],
+		 "3": ["Fantastic"],
+		 "3": ["Marvelous"],
+		 "5": ["Split",    "Where to go now?"],
+		 "6": ["Deadend",  "Better go the other way."],
+		 "9": ["Junction", "There we go again."],
+		"15": ["Joy",      "On the move."],
+		"20": ["Excellent"],
+		"22": ["Splendid"],
+		"23": ["Arghh Whats next."],
+		"26": ["Good Getting there."],
+		"28": ["Owww Boy."],
+		"30": ["Finally. Last Battle."]
+	},
+	"map":{
+		 "0": { "x":   0, "y":   0, "next": [1],        "open": true  },
+		 "1": { "x": 401, "y":  35, "next": [2],        "open": false },
+		 "2": { "x": 401, "y": 115, "next": [3],        "open": false },
+		 "3": { "x": 521, "y":  75, "next": [4],        "open": false },
+		 "4": { "x": 641, "y":  35, "next": [5,6],      "open": false },
+		 "5": { "x": 641, "y": 115, "next": [],         "open": false },
+		 "6": { "x": 761, "y": 115, "next": [7],        "open": false },
+		 "7": { "x": 761, "y": 195, "next": [8],        "open": false },
+		 "8": { "x": 601, "y": 195, "next": [9,14],     "open": false },
+		 "9": { "x": 601, "y": 315, "next": [10],       "open": false },
+		"10": { "x": 721, "y": 315, "next": [11],       "open": false },
+		"11": { "x": 681, "y": 435, "next": [12],       "open": false },
+		"12": { "x": 521, "y": 395, "next": [13],       "open": false },
+		"13": { "x": 401, "y": 355, "next": [],         "open": false },
+		"14": { "x": 481, "y": 235, "next": [15],       "open": false },
+		"15": { "x": 361, "y": 275, "next": [16],       "open": false },
+		"16": { "x": 281, "y": 195, "next": [17],       "open": false },
+		"17": { "x": 201, "y": 115, "next": [18],       "open": false },
+		"18": { "x": 121, "y": 115, "next": [19],       "open": false },
+		"19": { "x":  41, "y": 195, "next": [20],       "open": false },
+		"20": { "x": 121, "y": 275, "next": [21],       "open": false },
+		"21": { "x": 201, "y": 315, "next": [22],       "open": false },
+		"22": { "x": 201, "y": 395, "next": [23,25,27], "open": false },
+		"23": { "x":  81, "y": 475, "next": [24],       "open": false },
+		"24": { "x":  41, "y": 595, "next": [],         "open": false },
+		"25": { "x": 241, "y": 515, "next": [26],       "open": false },
+		"26": { "x": 401, "y": 595, "next": [],         "open": false },
+		"27": { "x": 361, "y": 435, "next": [28],       "open": false },
+		"28": { "x": 521, "y": 515, "next": [29],       "open": false },
+		"29": { "x": 681, "y": 515, "next": [30],       "open": false },
+		"30": { "x": 840, "y": 515, "next": [],         "open": false }
+	},
+	"monster": {
+		"M": "medic",
+		"B": "breadman",
+		"L": "centurion",
+		"T": "decturion",
+		"W": "wizard",
+		"C": "clown",
+		"D": "dragon",
+		"G": "gozilla",
+		"Q": "queen",
+		"K": "king",
+		"P": "knight",
+		"R": "reaper"
+	},
+	"levels": {
+		"1": {
+			"name": "Let there be Elfs",
+			"file": "level-1.json",
+			"waves": {
+				"1": "LLL..BBB",
+				"2": "BBL..BBL",
+				"3": "BBL..CLB..CLB"
+			}
+		},
+		"2": {
+			"name": "Let there be more Elfs",
+			"file": "level-2.json",
+			"waves": {
+				"1": "BBL..CLB..CLB",
+				"2": "WBBW..WCLW..WCLW",
+				"3": "BBGD.WWW.WCLFD.DCLDW",
+				"4": "DBBL..DCLB..DCLB",
+				"5": "GGGG..DBBL..BDBL..CLDB"
+			}
+		}
+	}
+}

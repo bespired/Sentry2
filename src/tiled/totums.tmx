@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="left-up" width="1" height="8" tilewidth="80" tileheight="52" nextobjectid="1">
+ <tileset firstgid="1" name="totum-autum" tilewidth="177" tileheight="157" tilecount="30" columns="5">
+  <tileoffset x="-47" y="32"/>
+  <image source="../tiles/totum-autum.png" width="885" height="942"/>
+ </tileset>
+ <layer name="totum1" width="1" height="8" visible="0">
+  <data encoding="csv">
+18,
+28,
+12,
+10,
+29,
+17,
+8,
+16
+</data>
+ </layer>
+ <layer name="totum2" width="1" height="8" visible="0">
+  <data encoding="csv">
+18,
+14,
+14,
+16,
+30,
+30,
+28,
+17
+</data>
+ </layer>
+ <layer name="totem3" width="1" height="8" visible="0">
+  <data encoding="csv">
+9,
+28,
+27,
+29,
+30,
+11,
+10,
+5
+</data>
+ </layer>
+ <layer name="totem4" width="1" height="8" visible="0">
+  <data encoding="csv">
+13,
+28,
+5,
+10,
+20,
+27,
+17,
+22
+</data>
+ </layer>
+ <layer name="totem5" width="1" height="8" visible="0">
+  <data encoding="csv">
+25,
+19,
+24,
+20,
+29,
+13,
+12,
+29
+</data>
+ </layer>
+ <layer name="totem6" width="1" height="8" visible="0">
+  <data encoding="csv">
+28,
+19,
+19,
+24,
+1,
+1,
+1,
+15
+</data>
+ </layer>
+ <layer name="totem7" width="1" height="8" visible="0">
+  <data encoding="csv">
+20,
+29,
+25,
+29,
+25,
+29,
+28,
+4
+</data>
+ </layer>
+ <layer name="totem8" width="1" height="8" visible="0">
+  <data encoding="csv">
+14,
+5,
+5,
+14,
+5,
+5,
+14,
+5
+</data>
+ </layer>
+ <layer name="totem9" width="1" height="8" visible="0">
+  <data encoding="csv">
+20,
+29,
+29,
+29,
+29,
+29,
+29,
+4
+</data>
+ </layer>
+ <layer name="totem10" width="1" height="8" visible="0">
+  <data encoding="csv">
+28,
+7,
+21,
+0,
+2,
+6,
+19,
+24
+</data>
+ </layer>
+ <layer name="totum11" width="1" height="8" visible="0">
+  <data encoding="csv">
+10,
+18,
+14,
+8,
+18,
+28,
+25,
+15
+</data>
+ </layer>
+ <layer name="totum12" width="1" height="8" visible="0">
+  <data encoding="csv">
+19,
+20,
+7,
+7,
+11,
+1,
+18,
+16
+</data>
+ </layer>
+ <layer name="totum13" width="1" height="8">
+  <data encoding="csv">
+11,
+22,
+22,
+29,
+6,
+28,
+12,
+29
+</data>
+ </layer>
+</map>
