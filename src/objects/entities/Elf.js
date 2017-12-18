@@ -76,6 +76,7 @@ class Elf extends Phaser.Group{
 					// did my monster die?
 					if( this.my_monster.health == 0 )
 					{
+
 						console.log('dead monster walking...' );
 						this.my_monster = null;
 

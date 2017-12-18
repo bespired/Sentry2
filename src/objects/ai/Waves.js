@@ -1,3 +1,4 @@
+import Map        from 'Objects/gui/Map';
 import Msg        from 'Objects/entities/Msg';
 import Monster    from 'Objects/entities/Monster';
 import Totum      from 'Objects/entities/Totum';
