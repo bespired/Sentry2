@@ -28,7 +28,6 @@ class Pathfind {
 		game.goal   = this.goal;
 		game.start  = this.start;
 
-//		console.log( this.start, this.goal);
 
 	}
 
@@ -88,19 +87,8 @@ class Pathfind {
 
 		var found= a_star.findPath(this.path, this.start, this.goal);
 
-		console.log(found);
 		this.path2grid(found);
 
-		// a_star.setGrid(this.path);
-		// a_star.setAcceptableTiles([1]);
-		// a_star.enableSync();
-
-		// let p = 0;
-		// let self = this;
-		// a_star.findPath(this.start.x, this.start.y, this.goal.x, this.goal.y, function(path) {
-		// 	self.path2grid(path);
-		// });
-		// a_star.calculate();
 		a_star = null;
 	}
 
