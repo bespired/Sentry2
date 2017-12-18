@@ -56,8 +56,16 @@ class Waves {
         {
             if ( time - this.start_time > this.timetable[this.current_wave][this.next].time )
             {
-                new Monster(this.game, this.game.start.x, this.game.start.y, this.timetable[this.current_wave][this.next].sprite );
-                //new Monster(this.game, 0, 6, this.timetable[this.current_wave][this.next].sprite, 8,8 );
+
+                if ( this.timetable[this.current_wave][this.next].sprite !== undefined ){
+
+                    new Monster(this.game, this.game.start.x, this.game.start.y, this.timetable[this.current_wave][this.next].sprite );
+
+                }else{
+
+                    console.error('add what?');
+
+                }
 
                 this.next++;
                 if (this.next >= this.timetable[this.current_wave].length ) this.next = -1;
